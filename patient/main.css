@@ -1,0 +1,141 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+}
+
+#nav {
+    text-align: right;
+    margin-top: 10px; 
+}
+
+#nav a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+hr {
+    clear: both;
+    width: 100%;
+    border-top: 1px solid #888;
+}
+
+#logo {
+    text-align: center;
+    background-image: url(images/header-doctor.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 40px;
+}
+
+#logo h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #888;
+}
+
+#logo h1 > span:first-child {
+    border: 2px solid #E23D7F;
+    padding: 3px 2px 3px 7px;
+    border-radius: 6px;
+    font-weight: 400;
+    color: #E23D7F;
+}
+
+#logo p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #71ccd5;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#appointments ul {
+    float: left;
+    width: 36%;
+    margin: 4%;
+    padding: 10px 30px;
+    border: 3px solid #71ccd5;
+    border-radius: 40px;
+}
+
+#other {
+
+    text-align: center;
+    padding: 15px 300px;
+}
+
+#other li {
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+#other img {
+    width: 50%;
+}
+
+#other p {
+    margin-bottom: 0;
+    border: 2px solid #E23D7F;
+    padding: 3px 2px 3px 7px;
+    border-radius: 6px;
+    color: #E23D7F;
+    background-color: white;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+other p:hover {
+    background-color: #E23D7F;
+    color: white;
+}
+
+#other ul::after {
+    
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#footer {
+    background-color: #888;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    padding-top: 15px;  
+}

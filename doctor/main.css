@@ -1,0 +1,226 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+}
+
+#nav {
+    text-align: right;
+    margin-top: 10px; 
+}
+
+#nav a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+hr {
+    clear: both;
+    width: 100%;
+    border-top: 1px solid #888;
+}
+
+#logo {
+    text-align: center;
+    background-image: url(images/header-doctor.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 40px;
+}
+
+#logo h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #888;
+}
+
+#logo h1 > span:first-child {
+    border: 2px solid #E23D7F;
+    padding: 3px 2px 3px 7px;
+    border-radius: 6px;
+    font-weight: 400;
+    color: #E23D7F;
+}
+
+#logo p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #71ccd5;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#now-and-next li {
+    float: left;
+    width: 36%;
+    margin: 4%;
+    padding: 10px 30px;
+    border: 3px solid #71ccd5;
+    border-radius: 40px;
+}
+
+#now-and-next ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#patient-card {
+    width: 86%;
+    margin: 4%;
+    padding: 10px 30px;
+    border: 3px solid #71ccd5;
+    border-radius: 40px;
+}
+
+#patient-card div {
+    width: 48%;
+    margin: 1%;
+    float: left;
+}
+
+#patient-card::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+form  {
+    width: 100%;
+}
+
+#app-form input {
+    border: 2px solid #dfdfdf;
+    border-radius: 40px;
+    min-height: 40px;
+    padding: 0 11px;
+    font-size: 14px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  color: #888;
+    width: 80%;
+}
+
+#app-form div {
+    width: 100%; 
+}
+
+#app-form input:focus, #app-form input:hover {
+    border-color: #71ccd5;
+}
+
+#app-form label {
+    display: block;
+}
+
+#for-patient input {
+    height: 20px !important;
+    min-height: 10px;
+    width: 10% !important;
+    float: left;
+}
+
+#for-patient input:hover {
+    height: 20px !important;
+    min-height: 10px;
+    width: 10% !important;
+    float: left;
+}
+
+.submit {
+    border: 2px solid #71ccd5;
+    border-radius: 40px;
+    min-height: 40px;
+    padding: 0 11px;
+    font-size: 14px;
+    color: #71ccd5;
+    width: 100px !important;
+    text-align: center;
+    float: right;
+    margin-right: 100px;
+    background-color: white;
+}
+
+.submit:hover {
+    background-color: #71ccd5;
+    color: white;
+}
+
+#line {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#line h3 {
+    padding-left: 100px;
+}
+
+#line li {
+    float: left;
+    width: 25%;
+    margin: 0 4%;
+    
+}
+
+#line button {
+    padding: 20px 40px;
+    border: 3px solid #71ccd5;
+    border-radius: 40px;
+    background-color: white;
+    text-align: right;
+}
+
+#line button:hover, #line button:active {
+    background-color: #71ccd5;
+    color: white;
+}
+
+#line button:focus, input:focus, button:focus {
+    outline: none;
+}
+
+#line ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+#footer {
+    background-color: #888;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    padding-top: 15px;  
+}
